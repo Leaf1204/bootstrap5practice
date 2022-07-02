@@ -1,3 +1,6 @@
+html * {
+    font-family: 'Ubuntu', sans-serif !important;
+}
 @media(min-wdith: 768px) {
     .news-input {
         width: 50%;
