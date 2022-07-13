@@ -6,3 +6,41 @@ html * {
         width: 50%;
     }
 }
+
+.containerOne {
+    max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.square {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.picture {
+  background-color: darkseagreen;
+}
+
+@media (min-width: 768px) {
+  .block {
+    display: flex;
+  }
+
+  .reversed {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  .square {
+    width: 50%;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+}
+
+.col-sm {
+    padding: 0px !important;
+}
